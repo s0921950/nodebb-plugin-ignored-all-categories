@@ -1,0 +1,16 @@
+{
+	"id": "nodebb-plugin-ignored-all-categories",
+	"url": "",
+	"library": "./library.js",
+	"hooks": [
+		{ "hook": "static:app.load", "method": "init" },
+		{ "hook": "action:user.create", "method": "userCreate" },
+		{ "hook": "action:category.create", "method": "categoryCreate" }
+	],
+	"less": [
+		"static/style.less"
+	],
+	"scripts": [
+		"static/lib/main.js"
+	]
+}
