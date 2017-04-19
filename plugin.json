@@ -1,5 +1,5 @@
 {
-	"id": "nodebb-plugin-ignored-all-categories",
+	"id": "nodebb-plugin-fsc-ignored-all-categories",
 	"url": "",
 	"library": "./library.js",
 	"hooks": [
